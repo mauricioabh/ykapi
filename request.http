@@ -1,0 +1,14 @@
+@api = http://localhost:6060
+
+### videos search
+GET {{api}}/search/blippi
+
+### guardar algo
+POST {{api}}/posts
+Content-Type: application/json
+# otro comentario
+{
+    // otro comentario
+    "title": "no pos guau title",
+    "body": "no pos guau body"
+}
